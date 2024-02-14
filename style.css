@@ -1,6 +1,8 @@
-body {
-    overflow-x: hidden;
-}
+ body {
+            margin: 0; /* Remove default body margin */
+            padding: 0; /* Remove default body padding */
+      overflow-x: hidden;
+        }
 
 .list {
     margin-left: 15%;
@@ -82,4 +84,12 @@ body {
     z-index: 1;
     position:relative;
     width: 100%;
+}
+
+
+
+.bodyy {
+    width: 100%;
+    max-width: 100vw;
+   
 }
