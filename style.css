@@ -39,6 +39,18 @@
     background-color: green;
     color: white;
     
+    
+}
+
+.invite{
+     border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: green;
+    color: white;
+    
 }
 
 .button {
@@ -62,12 +74,13 @@
 
 .digital {
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 7%;
 }
 
 .bground {
-    background-color: blue;
-    padding-bottom: 10%;
+    background-color: #f4f4f4;
+    padding-bottom: 7%;
+    padding-top: 7% ;
 }
 
 
@@ -76,10 +89,10 @@
 
 .desktop {
     position: absolute;
-    margin-top: -2%;
-    margin-left: 30%;
+    margin-top: -18%;
+    margin-left: 42%;
     overflow: hidden;
-    
+    width: 65%;
 }
 
 
@@ -87,20 +100,54 @@
 .hd {
     background-color: white;
     z-index: 1;
-    position:relative;
+    position:fixed;
     width: 100%;
+
 }
 
 
 
+.bodyy {
+    background-color: white;
+}
 
- @media (max-width: 768px) {
-      desktop {
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-        overflow: hidden;
-      }
-    }
+.mockups {
+    position: absolute;
+    width: 40%;
+    margin-left: 60%;
+    margin-top: -10%;
+   
+}
 
+
+.choose {
+    font-weight: 400;
+}
+
+.open {
+    width: 50%;
+    color: grey;
+}
+
+.Easybank {
+    background-color: #e0e0e0;
+    padding-top: 5%;
+    padding-bottom: 10%
+}
+
+.modern {
+    width: 99%;
+    color:grey;
+        
+}
+
+.money {
+    width: 91%;
+}
+
+
+
+.manage {
+    width:100%;
+    color: grey;
+}
