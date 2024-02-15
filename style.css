@@ -116,12 +116,14 @@
     width: 40%;
     margin-left: 60%;
     margin-top: -10%;
-   
+    
+       
 }
 
 
 .choose {
     font-weight: 400;
+    margin-bottom: 2%;
 }
 
 .open {
@@ -132,7 +134,7 @@
 .Easybank {
     background-color: #e0e0e0;
     padding-top: 5%;
-    padding-bottom: 10%
+    padding-bottom: 4%;
 }
 
 .modern {
@@ -150,4 +152,42 @@
 .manage {
     width:100%;
     color: grey;
+}
+
+.online {
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+
+.latest {
+    font-weight: 400;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.section {
+    background-color:  #f4f4f4;
+}
+
+.currency {
+    background-color: white;
+    padding-bottom: 3%;
+    
+    
+}
+
+.receive {
+font-size: 20px;
+    margin-left: 5%;
+}
+
+
+
+
+
+.desk {
+    background-image: url(bg-intro-desktop.svg);
+    background-position: ;
+    
 }
