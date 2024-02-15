@@ -168,6 +168,7 @@
 
 .section {
     background-color:  #f4f4f4;
+    padding-bottom: 3%;
 }
 
 .currency {
@@ -186,8 +187,125 @@ font-size: 20px;
 
 
 
-.desk {
-    background-image: url(bg-intro-desktop.svg);
-    background-position: ;
+
+
+.copy {
+    background-color: #031141;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+.darklog {
+    margin-bottom: 20%;
+}
+
+.icon {
+margin-right: 2%;
+}
+
+.about {
+    color: white;
+
+}
+.about:hover{
+    color: green;
+    text-decoration: none;
+    transition: 0.2s;
     
+}
+
+
+
+.space {
+    margin-bottom: 6%;
+}
+
+.in {
+    margin-bottom: 7%;
+
+}
+.mockups-2{
+    display: none;
+}
+
+.mobile{
+    display: none;
+}
+.right {
+    color: grey;
+    font-size: 90%
+}
+
+@media screen and (max-width:992px){
+    .desktop{
+        display: none;
+    }
+    .mockups{
+        display: none;
+    }
+    .mockups-2 {
+    
+    display: block;
+        margin-left: 10%;
+        position: absolute;
+        width: 55%;
+        margin-top: -10%;
+        
+}
+    .generation{
+        width: 80%;
+        margin-left: 10%;
+        padding-top: 80%;
+    }
+    .finance{
+        width: 74%;
+        margin-left: 10%;
+    }
+    .invite{
+        margin-left: 30%;
+    }
+    .mobile{
+        position: absolute;
+        display: block;
+        margin-left: 10%;
+        width: 60%;
+        margin-top: -8%;
+    }
+    .darklog{
+        margin-bottom: 5%;
+        margin-top: 3%;
+        text-align: center;
+        
+    }
+    
+    .social{
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .abc{
+        
+        text-align: center;
+        
+    }
+    .space{
+        margin-bottom: 5%;
+    }
+    .csb{
+        text-align: center;
+    }
+    .in{
+       text-align: center;
+    }
+    .right{
+        text-align: center
+    }
+    .open{
+        width: 70%;
+        text-align: center;
+    }
+    .choose{
+        text-align: center;
+        width: 70%
+    }
 }
