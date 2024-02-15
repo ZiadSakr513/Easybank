@@ -5,12 +5,14 @@
         }
 
 .list {
-    margin-left: 15%;
+    margin-left: 10%;
+   
 }
 
 .home {
     color: darkgrey;
-    margin-right: 30px;
+    padding-right: 20px;
+    font-size: 15px;
 }
 
 .home:hover {
@@ -20,7 +22,7 @@
 }
 
 .logo {
-    margin-left: 6%;
+    margin-left: 2%;
 }
 
 .heading {
@@ -40,7 +42,8 @@
 }
 
 .button {
-    margin-left: 12%;
+    padding-left:20%;
+    display: inline-flex;
 }
 
 
@@ -90,7 +93,14 @@
 
 
 
-.bodyy {
-    width: 100%;
-   
-}
+
+ @media (max-width: 768px) {
+      desktop {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+    }
+
