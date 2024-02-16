@@ -386,6 +386,9 @@ margin-bottom: 20%;
 
 @media screen and (max-width:480px){
     .menu{
-        margin-left:25%
+        margin-left:10%
     }
+    .logo {
+    margin-right: 10%;
+}
 }
