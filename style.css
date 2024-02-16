@@ -257,7 +257,7 @@ margin-right: 2%;
 }
 .menu {
     width: 6%;
-    margin-left: 50%;
+    margin-left: 60%;
     display: none;
 }
 @media screen and (max-width:992px){
@@ -384,3 +384,8 @@ margin-bottom: 20%;
     
 }
 
+@media screen and (max-width:480px){
+    .menu{
+        margin-left:40%
+    }
+}
