@@ -53,9 +53,14 @@
     padding-left: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: green;
+   background: linear-gradient(45deg,#00a300,#25ddff);
     color: white;
     
+}
+
+.invite:hover{
+        background: linear-gradient(45deg,#6ef56e,#49d9f4);
+     
 }
 
 .button {
