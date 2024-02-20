@@ -291,9 +291,9 @@ margin-right: 2%;
     .mobile{
         position: absolute;
         display: block;
-        margin-left: 10%;
-        width: 60%;
-        margin-top: -8%;
+        margin-left: -20%;
+        width: 120%;
+        margin-top: -40%;
     }
     .darklog{
         margin-bottom: 5%;
