@@ -348,9 +348,9 @@ margin-right: 2%;
 }
 
 
-@media screen and (max-width:400px){
+@media screen and (max-width:500px){
     .menu{
-        margin-left: 30%;
+        margin-left: 20%;
     }
     
 }
