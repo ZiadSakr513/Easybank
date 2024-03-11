@@ -1,215 +1,389 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>easybank</title>
-<link rel="stylesheet" href="style.css">    
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<meta name="viewport" content="width=device-width, minimum-scale=1">
-</head>
-    <style></style>
-    <div style="overflow-x: hidden">
-<body>
-    <div class="hd">
-   <div class="container">
-<div class="row heading">
+ body,html {
+            margin: 0; /* Remove default body margin */
+            padding: 0; /* Remove default body padding */
+      overflow-x: hidden;
+        }
+
+.list {
+    margin-left: 10%;
+   
+}
+
+.home {
+    color: darkgrey;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.home:hover {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.logo {
+    margin-left: 2%;
+}
+
+.heading {
+    margin-top: 1.5%;
+    padding-bottom: 1%
+}
+
+.request {
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   background: linear-gradient(45deg,#00a300,#25ddff);
+    color: white;
+     
     
-    <div class="logo">
-<img src="logo.svg">
-    </div>
-    <img class="menu" id="menu" src="menu.png">
+}
+
+.request:hover{
+     background: linear-gradient(45deg,#6ef56e,#49d9f4);
+     
+}
+
+.invite{
+     border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   background: linear-gradient(45deg,#00a300,#25ddff);
+    color: white;
     
-    <div class="list">
-<a href="#" class="home">Home</a>
-   <a href="#" class="home">About</a>
-<a href="#" class="home">Contact</a>
-<a href="#" class="home">Blog</a>
-<a href="#" class="home">Careers</a>   
-   </div>  
+}
+
+.invite:hover{
+        background: linear-gradient(45deg,#6ef56e,#49d9f4);
+     
+}
+
+.button {
+    padding-left:20%;
+    display: inline-flex;
+}
+
+
+
+
+
+.generation {
+    width: 40%;
+    font-weight: 400;
+}
+
+.finance {
+    width: 40%;
+    color: grey;
+}
+
+.digital {
+    margin-top: 5%;
+    margin-left: 7%;
+}
+
+.bground {
+    background-color: #f4f4f4;
+    padding-bottom: 7%;
+    padding-top: 7% ;
+}
+
+
+
+
+
+.desktop {
+    position: absolute;
+    margin-top: -18%;
+    margin-left: 42%;
+    overflow: hidden;
+    width: 65%;
+}
+
+
+
+.hd {
+    background-color: white;
+    z-index: 1;
+    position:fixed;
+    width: 100%;
+
+}
+
+
+
+.bodyy {
+    background-color: white;
+}
+
+.mockups {
+    position: absolute;
+    width: 40%;
+    margin-left: 60%;
+    margin-top: -10%;
     
-    <div class="popup" id="popup">
-    <a class="hacbg"  href="#"><p class="hac">Home</p></a>
-    <a class="hacbg" href="#"><p class="hac" >About</p></a>
-    <a class="hacbg" href="#"><p class="hac">Contact</p></a>
-    <a class="hacbg" href="#"><p class="hac">Blog</p></a>
-    <a class="hacbg"  href="#"><p class="hac">Careers</p></a>
-    
-    </div>
-    
-         <div class="button">
-        <button class="request" type="button">Request Invite</button>
-            </div>
- </div>       
-    </div>
-    </div>    
-    
-    <div class="bground">
-    <div class="container">        
-    <div class="row">
-        <div class="digital">
-            <img src="bg-intro-mobile.svg" class="mobile">
-            <img  src="image-mockups.png" class="mockups-2 ">
-    <h1 class="generation">Next generation digital banking</h1>
- 
-        <p class="finance">Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
-            <div class="lol">
-            <button class="invite">Request Invite</button>
-                </div>
-            </div>
-    <img src="bg-intro-desktop.svg" class="desktop">
-    <img  src="image-mockups.png" class="mockups ">    
+       
+}
+
+
+.choose {
+    font-weight: 400;
+    margin-bottom: 2%;
+}
+
+.open {
+    width: 50%;
+    color: grey;
+}
+
+.Easybank {
+    background-color: #e0e0e0;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.modern {
+    width: 99%;
+    color:grey;
         
-    </div>
-    </div>
-    </div>
-    <div class="Easybank">
-    <div class="container">
-    <h1 class="choose">Why choose Easybank?</h1>        
-    <p class="open">We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
-    <div class="container">
-    <div class="row">
-        <div class="col-lg-3">
-        <div>
-        <img src="icon-online.svg">            
-        </div>
-            <h3 class="online">Online Banking</h3>
-            <p class="modern">Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world.</p>
-            
-        </div>
-        <div class="col-lg-3">
-        <div>
-        <img src="icon-budgeting.svg">            
-        </div>
-            <h3 class="online">Simple Budgeting</h3>
-            <p class="modern">see exactly where your money goes each month.Recieve notifactions when you're close to hitting your limits.</p>
-            
-        </div>
-        <div class="col-lg-3">
-        <div>
-        <img src="icon-onboarding.svg">            
-        </div>
-            <h3 class="online">Fast Onboarding</h3>
-            <p class="modern">We don't do branches.Open your account in minutes online and start taking control of your finances right away.</p>        
-        </div>
-        <div class="col-lg-3">
-        <div>
-        <img class="" src="icon-api.svg">            
-        </div>
-            <h3 class="online">Open API</h3>
-            <p class="manage">Manage your savings,investments,pension,and much more from one account. Tracking your money has never been easier.</p>
-            
-        </div>
-        </div>
-    </div>
-    </div>    
-        </div>
-    <section class="section">
+}
+
+#popup {
+     display: none;
+}
+
+.money {
+    width: 91%;
+}
+
+
+
+.manage {
+    width:100%;
+    color: grey;
+}
+
+.online {
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+
+.latest {
+    font-weight: 400;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.section {
+    background-color:  #f4f4f4;
+    padding-bottom: 3%;
+}
+
+.currency {
+    background-color: white;
+    padding-bottom: 3%;
     
-    <h1 class="latest">Latest Articles</h1>
+    
+}
+
+.receive {
+font-size: 20px;
+    margin-left: 5%;
+}
+.receive:hover{
+    color: aqua;
+    cursor:pointer;
+    transition: 0.2s;
+}
+
+
+
+
+
+
+
+.copy {
+    background-color: #031141;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+.darklog {
+    margin-bottom: 20%;
+}
+
+.icon {
+margin-right: 2%;
+}
+
+.about {
+    color: white;
+
+}
+.about:hover{
+    color: green;
+    text-decoration: none;
+    transition: 0.2s;
+    
+}
+
+
+
+.space {
+    margin-bottom: 6%;
+}
+
+.in {
+    margin-bottom: 7%;
+
+}
+.mockups-2{
+    display: none;
+}
+
+.mobile{
+    display: none;
+}
+.right {
+    color: grey;
+    font-size: 90%
+}
+@media screen and (min-width:993px){
+.menu {
+    width: 6%;
+    margin-left: 60%;
+    display: none;
+}
+    }
+@media screen and (max-width:992px){
+    .desktop{
+        display: none;
+    }
+    .mockups{
+        display: none;
+    }
+    .mockups-2 {
+    
+    display: block;
+        margin-left: 10%;
+        position: absolute;
+        width: 55%;
+        margin-top: -10%;
         
-        <div class="container">
-        <div class="row">
-            <div class="col-lg-3 ">
-            <div class="currency">
-            <div>
-        <img src="image-currency.jpg" width="100%" >
-            </div>
-            <div>
-            <p style="margin-left: 5%;color: grey; font-size: 90%; margin-bottom: 4%;">By Claire Robinson</p>
-            <h4 class="receive">Receive money in any currency with no fees</h4>    
-            <p style="color:grey;margin-left:5%;font-size: 95%; m-bottom: 0;">The world is getting smaller and we're becoming more mobile. So why should you be forced to only receive money in a single...</p>    
-            </div>
-            </div>
-            </div>
-            <div class="col-lg-3 ">
-            <div class="currency">
-            <div>
-        <img src="image-restaurant.jpg" width="100%" >
-            </div>
-            <div>
-            <p style="margin-left: 5%;color: grey; font-size: 90%; margin-bottom: 4%;padding-top: 9%;">By Wilson Hutton</p>
-            <h4 class="receive">Treat yourself without worrying about money</h4>    
-            <p style="color:grey;margin-left:5%;font-size: 95%">Our simple budgeting feature allows you to seperate out your spending and set realistic limits each month. That means you...</p>    
-            </div>
-            </div>
-            </div>
-            <div class="col-lg-3 ">
-            <div class="currency">
-            <div>
-        <img src="image-plane.jpg" width="100%" >
-            </div>
-            <div>
-            <p style="margin-left: 5%;color: grey; font-size: 90%; margin-bottom: 4%;padding-top: 9%;">By Wilson Hutton</p>
-            <h4 class="receive">Take your Easybank card wherever you go</h4>    
-            <p style="color:grey; font-size: 95%; margin-left: 3%;width: 93%">We want you to enjoy your travels. This is why we dont charge any fees on purchases while you're abroad We'll even show you...</p>    
-            </div>
-            </div>
-            </div>
-            <div class="col-lg-3 ">
-            <div class="currency">
-            <div>
-        <img src="image-confetti.jpg" width="100%" >
-            </div>
-            <div>
-            <p style="margin-left: 5%;color: grey; font-size: 90%; margin-bottom: 4%;padding-top: 9%;">By Claire Robinson</p>
-            <h4 class="receive">Out invite-only Beta accounts are now live!</h4>    
-            <p style="color:grey;padding-left:3%; width: 100%;font-size: 95%">After a lot of hard work by the whole team.we're excited to launch our closed beta. it's easy to request and invite through the site...</p>    
-            </div>
-            </div>
-            </div>
-        </div>
-    </div>
-    </section>
-<div class="copy">
-    <div class="container"> 
-    <div class="row">
-        <div class="col-lg-3">
-        <div class="darklog">
-        <img src="logo.svg">
-        </div>
-        <div class="social">
-       <a href="#"> <img class="icon" src="icon-facebook.svg"></a>
-            <a href="#"> <img class="icon" src="icon-youtube.svg"></a>
-            <a href="#">  <img class="icon" src="icon-twitter.svg"></a>
-            <a href="#">  <img class="icon" src="icon-pinterest.svg"></a>
-            <a href="#">  <img class="icon" src="icon-instagram.svg"></a>
-            
-        </div>
-        </div>
-        <div class="col-lg-3 abc">
-            
-        <div class="space">
-        <a class="about" href="#">About us</a>
-            </div>
-            <div class="space">
-        <a class="about" href="#">Contact</a>
-            </div>
-            <div class="space">
-        <a class="about" href="#">Blog</a>
-            </div>
-           
-            </div>
-         <div class="col-lg-3 csb">
-        <div class="space">
-        <a class="about" href="#">Careers</a>
-            </div>
-            <div class="space">
-        <a class="about" href="#">Support</a>
-            </div>
-            <div class="space">
-        <a class="about" href="#">Privacy Policy</a>
-            </div>
-            </div>
-        <div class="col-lg-3">
-            <div class="in">
-        <button class="request" type="button">Request Invite</button>
-        </div>
-            <p class="right">ⒸEasybank. All Rights Reserved</p>
-        </div>
+}
+    .generation{
+        width: 80%;
+        margin-left: 10%;
+        padding-top: 80%;
+    }
+    .finance{
+        width: 74%;
+        margin-left: 10%;
+    }
+    .invite{
+        margin-left: 30%;
+    }
+    .mobile{
+        position: absolute;
+        display: block;
+        margin-left: -20%;
+        width: 120%;
+        margin-top: -40%;
+    }
+    .darklog{
+        margin-bottom: 5%;
+        margin-top: 3%;
+        text-align: center;
         
-        </div>
-    </div>   
-    </div>
-   <script src="script.js"></script>
-</body>    
-        </div>
-</html>
+    }
+    
+    .social{
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .abc{
+        
+        text-align: center;
+        
+    }
+    .space{
+        margin-bottom: 5%;
+    }
+    .csb{
+        text-align: center;
+    }
+    .in{
+       text-align: center;
+    }
+    .right{
+        text-align: center
+    }
+    .open{
+        width: 70%;
+        text-align: center;
+    }
+    .list{
+        display: none;
+    }
+    .button{
+        display: none;
+    }
+    .heading{
+        padding-bottom: 2%;
+    }
+    
+    .choose{
+        text-align: center;
+        width: 70%
+    }
+    .menu{
+        display: block;
+        cursor: pointer;
+        margin-left: 10%;
+    }
+}
+
+
+
+
+
+.popup {
+    position: fixed;
+    background-color: white;    
+    margin-left: 60%;
+    margin-top: 65px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+    
+}
+
+.hac {
+margin-bottom: 20%;
+    color: black;
+    
+}
+.hac:hover{
+    color: lightgreen;
+    transition: 0.2s;
+}
+
+
+.hacbg {
+   
+}
+.hacbg:hover{
+    text-decoration: none;
+    
+}
+
