@@ -194,12 +194,16 @@
 
 .receive {
 font-size: 20px;
-    margin-left: 5%;
+  
+    color:black;
+    
+
 }
 .receive:hover{
     color: aqua;
     cursor:pointer;
     transition: 0.2s;
+    text-decoration: none;
 }
 
 
