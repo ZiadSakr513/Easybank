@@ -344,16 +344,12 @@ margin-right: 2%;
     .menu{
         display: block;
         cursor: pointer;
+        width: 10%;
     }
 }
 
 
-@media screen and (max-width:600px){
-    .menu{
-        margin-left: 10%;
-    }
-    
-}
+
 
 
 .popup {
