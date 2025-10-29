@@ -1,0 +1,392 @@
+ body,html {
+            margin: 0; /* Remove default body margin */
+            padding: 0; /* Remove default body padding */
+      overflow-x: hidden;
+        }
+
+.list {
+    margin-left: 10%;
+   
+}
+
+.home {
+    color: darkgrey;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.home:hover {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.logo {
+    margin-left: 2%;
+}
+
+.heading {
+    margin-top: 1.5%;
+    padding-bottom: 1%
+}
+
+.request {
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   background: linear-gradient(45deg,#00a300,#25ddff);
+    color: white;
+     
+    
+}
+
+.request:hover{
+     background: linear-gradient(45deg,#6ef56e,#49d9f4);
+     
+}
+
+.invite{
+     border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   background: linear-gradient(45deg,#00a300,#25ddff);
+    color: white;
+    
+}
+
+.invite:hover{
+        background: linear-gradient(45deg,#6ef56e,#49d9f4);
+     
+}
+
+.button {
+    padding-left:20%;
+    display: inline-flex;
+}
+
+
+
+
+
+.generation {
+    width: 40%;
+    font-weight: 400;
+}
+
+.finance {
+    width: 40%;
+    color: grey;
+}
+
+.digital {
+    margin-top: 5%;
+    margin-left: 7%;
+}
+
+.bground {
+    background-color: #f4f4f4;
+    padding-bottom: 7%;
+    padding-top: 7% ;
+}
+
+
+
+
+
+.desktop {
+    position: absolute;
+    margin-top: -18%;
+    margin-left: 42%;
+    overflow: hidden;
+    width: 65%;
+}
+
+
+
+.hd {
+    background-color: white;
+    z-index: 1;
+    position:fixed;
+    width: 100%;
+
+}
+
+
+
+.bodyy {
+    background-color: white;
+}
+
+.mockups {
+    position: absolute;
+    width: 40%;
+    margin-left: 60%;
+    margin-top: -10%;
+    
+       
+}
+
+
+.choose {
+    font-weight: 400;
+    margin-bottom: 2%;
+}
+
+.open {
+    width: 50%;
+    color: grey;
+}
+
+.Easybank {
+    background-color: #e0e0e0;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.modern {
+    width: 99%;
+    color:grey;
+        
+}
+
+#popup {
+     display: none;
+}
+
+.money {
+    width: 91%;
+}
+
+
+
+.manage {
+    width:100%;
+    color: grey;
+}
+
+.online {
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+
+.latest {
+    font-weight: 400;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.section {
+    background-color:  #f4f4f4;
+    padding-bottom: 3%;
+}
+
+.currency {
+    background-color: white;
+    padding-bottom: 3%;
+    
+    
+}
+
+.receive {
+font-size: 20px;
+  
+    color:black;
+    
+
+}
+.receive:hover{
+    color: aqua;
+    cursor:pointer;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.copy {
+    background-color: #031141;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+.darklog {
+    margin-bottom: 20%;
+}
+
+.icon {
+margin-right: 2%;
+}
+
+.about {
+    color: white;
+
+}
+.about:hover{
+    color: green;
+    text-decoration: none;
+    transition: 0.2s;
+    
+}
+
+
+
+.space {
+    margin-bottom: 6%;
+}
+
+.in {
+    margin-bottom: 7%;
+
+}
+.mockups-2{
+    display: none;
+}
+
+.mobile{
+    display: none;
+}
+.right {
+    color: grey;
+    font-size: 90%
+}
+
+.menu {
+    width: 6%;
+    display: none;
+}
+    
+@media screen and (max-width:992px){
+    .desktop{
+        display: none;
+    }
+    .mockups{
+        display: none;
+    }
+    .mockups-2 {
+    
+    display: block;
+        margin-left: 10%;
+        position: absolute;
+        width: 55%;
+        margin-top: -10%;
+        
+}
+    .generation{
+        width: 80%;
+        margin-left: 10%;
+        padding-top: 80%;
+    }
+    .finance{
+        width: 74%;
+        margin-left: 10%;
+    }
+    .invite{
+        margin-left: 30%;
+    }
+    .mobile{
+        position: absolute;
+        display: block;
+        margin-left: -20%;
+        width: 120%;
+        margin-top: -40%;
+    }
+    .darklog{
+        margin-bottom: 5%;
+        margin-top: 3%;
+        text-align: center;
+        
+    }
+    
+    .social{
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .abc{
+        
+        text-align: center;
+        
+    }
+    .space{
+        margin-bottom: 5%;
+    }
+    .csb{
+        text-align: center;
+    }
+    .in{
+       text-align: center;
+    }
+    .right{
+        text-align: center
+    }
+    .open{
+        width: 70%;
+        text-align: center;
+    }
+    .list{
+        display: none;
+    }
+    .button{
+        display: none;
+    }
+    .heading{
+        padding-bottom: 2%;
+    }
+    
+    .choose{
+        text-align: center;
+        width: 70%
+    }
+    .menu{
+        display: block;
+        cursor: pointer;
+        margin-left: 50%;
+    }
+}
+
+
+
+
+
+.popup {
+    position: fixed;
+    background-color: white;    
+    margin-left: 60%;
+    margin-top: 65px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+    
+}
+
+.hac {
+margin-bottom: 20%;
+    color: black;
+    
+}
+.hac:hover{
+    color: lightgreen;
+    transition: 0.2s;
+}
+
+
+.hacbg {
+   
+}
+.hacbg:hover{
+    text-decoration: none;
+    
+}
+
